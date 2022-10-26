@@ -38,6 +38,17 @@
 
 .bgchero {
     background-color: rgba(47, 48, 58, 1);
+   
+
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
