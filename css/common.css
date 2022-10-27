@@ -130,6 +130,18 @@ img {
     color: var(--secondary-logo-color);
 }
 
+.link-contact-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--secondary-text-color);
+}
+
+.link-contact-icon:focus,
+.link-contact-icon:hover {
+    fill: var(--secondary-logo-color);
+}
+
 .current {
     color: var(--secondary-logo-color);
 }
