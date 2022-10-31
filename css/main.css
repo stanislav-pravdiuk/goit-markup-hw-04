@@ -181,6 +181,10 @@ margin-right: 0px;
     margin-right: 0px;
 }
 
+.name-text {
+text-align: center;
+}
+
 .name {
     font-weight: 500;
     font-size: 16px;
@@ -200,21 +204,33 @@ margin-right: 0px;
     margin-bottom: 0px;
 }
 
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .icon-link  {
-    display:inline-block;
+    display:flex;
     width: 44px;
     height: 44px;
-    background-color: red;
+    fill: #AFB1B8;;
     border-radius: 50%;
     margin: 16px 10px 30px 10px;
     background-position: 50% 50%;
     
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link:focus,
+.icon-link:hover {
+    background-color: var(--secondary-logo-color);
+    fill: var(--white-text-color);
 }
 
 .icon-link-item {
-   
- 
-   
+
 }
 
 

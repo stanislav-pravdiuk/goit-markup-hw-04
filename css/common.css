@@ -115,6 +115,8 @@ img {
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
+    align-items: center;
+    display: flex;
 }
 
 .link-item {
