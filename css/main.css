@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-/* hero */
+/* --------------------------------------hero-------------------------------------- */
 
 .hero-title{
     color: var(--white-text-color);
@@ -54,7 +54,7 @@
     padding-bottom: 200px;
 }
 
-/* features */
+/* --------------------------------------features-------------------------------------- */
 
 
 
@@ -121,7 +121,7 @@ margin-right: 0px;
     margin-bottom: 0px;
 }
 
-/* work */
+/* --------------------------------------work-------------------------------------- */
 
 .reset-p {
     padding-top: 0px;
@@ -150,7 +150,7 @@ margin-right: 0px;
     margin-right: 0px;
 }
 
-/* team */
+/* --------------------------------------team-------------------------------------- */
 
 .title-team {
     font-weight: 700;
@@ -275,8 +275,8 @@ text-align: center;
 
    .clients-link:focus,
    .clients-link:hover {
-       background-color: var(--secondary-logo-color);
-       fill: var(--white-text-color);
+    background-color: var(--secondary-logo-color);
+    fill: var(--white-text-color);
    }
 
    .clients-icon {

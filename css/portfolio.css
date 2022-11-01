@@ -1,4 +1,4 @@
-/* header*/
+/* ----------------------------header----------------------------*/
 
 .border-header {
 border-bottom: 1px solid rgba(238, 238, 238, 1);
@@ -18,7 +18,7 @@ border-bottom: 1px solid rgba(238, 238, 238, 1);
 }
 
 
-/* filter */
+/* ----------------------------filter---------------------------- */
 
 .list-filter {
     display: flex;
