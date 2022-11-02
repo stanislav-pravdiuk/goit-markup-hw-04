@@ -131,14 +131,14 @@ img {
 .link-contact:hover,
 .link-contact:focus {
     color: var(--secondary-logo-color);
-    fill: var(--secondary-logo-color);
+    /* fill: var(--secondary-logo-color); */
 }
 
 .link-contact-icon {
     width: 16px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--secondary-text-color);
+    fill: currentColor;
 }
 
 .link-contact-icon:focus,
@@ -169,14 +169,17 @@ img {
     display: flex;
     align-items: center;}
 
-.logo-footer {
+/* .logo-footer {
     padding-bottom: 20px;
-}
+} */
 
 .night-theme {
     color: white;
 }
 
+.requisites {
+    margin-top: 20px;
+}
 .item-adress {
     margin-top: 0px;
     margin-bottom: 9px;
